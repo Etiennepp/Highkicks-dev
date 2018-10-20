@@ -1,0 +1,329 @@
+@font-face { 
+
+	font-family: 'Bold';
+	src: url('https://highkicks.fr/data/police/theboldfont.ttf');
+}
+
+@font-face { 
+
+	font-family: 'Futura';
+	src: url('https://highkicks.fr/data/police/Futura Std Heavy Oblique.otf');
+}
+
+
+@font-face { 
+
+	font-family: 'Article name';
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold_Oblique.otf');
+}
+
+@font-face { 
+
+	font-family: 'Price';
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold.otf');
+}
+
+@font-face { 
+
+	font-family: 'Quick_light';
+	src: url('https://highkicks.fr/data/police/Quicksand_Light.otf');
+}
+
+
+/*=======================================================================================*/
+body
+{
+	background: black;
+}
+
+
+#retour-button
+{
+	margin-top: 50px;
+	margin-left: 10%;
+	border: none;
+
+	padding: 10px;
+	border-radius: 30px;
+}
+
+#retour-button:hover
+{
+	background-color: white;
+}
+
+
+#titre-admin
+{
+	text-align: center;
+	font-family: "Futura",Arial;
+
+	color: white;
+
+	font-size: 50px;
+}
+
+.nav-button
+{
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	font-size: 30px;
+
+	background-color: #FF5328;
+
+	font-family: "Bold";
+	letter-spacing: 3px;
+	padding: 10px;
+
+	border: none;
+
+	color: white;
+
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+
+.nav-button:hover
+{
+	transition: 0.5s;
+	background-color: #b50000;
+}
+
+.action-title
+{
+	text-align: center;
+	color: #FF5328;
+
+	font-family: "Futura";
+
+	text-decoration: underline;
+}
+
+.subtitles
+{
+	text-align: center;
+	color: white;
+	font-family: "Bold",Arial;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+
+#textarea-wrap
+{
+	width: 100%;
+	text-align: center;
+}
+
+textarea
+{
+	width: 50%;
+}
+
+#photo-input-wrap
+{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+#photo-input-wrap input
+{
+	margin-left: 10.5%;
+	font-family: "Bold",Arial;
+
+	margin-bottom: 30px;
+	color: white;
+}
+
+#submit-add-article
+{
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+
+	border: none;
+	padding: 10px;
+
+	letter-spacing: 2px;
+
+	font-family: "Bold", Arial;
+
+	color: white;
+	background-color: #65ce29;
+
+}
+
+.wrap-article-modif
+{
+	display: flex;
+	padding: 30px;
+	border: 6px dashed gray;
+
+	margin-top: 40px;
+
+	text-align: center;
+}
+
+.wrap-article-modif img
+{
+	width: 150px;
+}
+
+.nom-article
+{
+	color: white;
+	font-family: "Futura";
+
+	font-size: 40px;
+
+	margin-left: 50px;
+}
+
+
+.dropdown-select-shop
+{
+	padding: 20px;
+	margin-top: 10px;
+	padding-right: 50px;
+	font-family: "Price", Arial;
+	font-weight: bold;
+	border: none;
+	background-color: #696969;
+	color: white;
+	-webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none; 
+   background-image: url('https://highkicks.fr/data/image/dropdown-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right center; 
+    	width: calc(31.5% - 2em);
+    		margin-left: 20%;
+
+
+}
+
+
+#select-place
+{
+	padding: 20px;
+	margin-top: 10px;
+	padding-right: 50px;
+	font-family: "Price", Arial;
+	font-weight: bold;
+	border: none;
+	background-color: #696969;
+	color: white;
+	-webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none; 
+   background-image: url('https://highkicks.fr/data/image/dropdown-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right center; 
+    	width: calc(31.5% - 2em);
+    		margin-left: 20%;
+
+
+}
+
+.range
+{
+	color: white;
+}
+
+#article_table
+{
+	width: 40%;
+
+	color: white;
+	font-family: "Price",Arial;
+
+	text-align: center;
+	margin: auto;
+}
+
+.article_tweaks
+{
+	transition: 0.3s;
+	display: block;
+	border-radius: 999px;
+	background-color: white;
+}
+
+.article_tweaks:hover
+{
+	transition: 0.3s;
+	background-color: #FF5328;
+}
+
+.tweaks
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.cell-dblclk
+{
+	transition: 0.2s;
+	user-select: none !important;
+}
+
+.cell-dblclk
+{
+	user-select: none !important;
+	-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+#article_table tr
+{
+	transition: 0.2s;
+}
+#article_table tr:hover
+{
+	background-color: rgb(114, 114, 114);
+	transition: 0.2s;
+
+	cursor: pointer;
+}
+
+
+#submit-dialog-wrap
+{
+	padding-right: 40px;
+	line-height: 100%;
+	background-position: right center;
+	background-repeat: no-repeat;
+	display: block;
+	background-size: auto 80%;
+	margin: auto;
+
+	width: 55%;
+}
+
+/*https://highkicks.fr/data/image/baseline_check_black_36dp.png*/
+/*https://highkicks.fr/data/image/Rolling-1s-200px.gif*/
+
+
+#radio-sizes-container
+{
+	color: white;
+	display: block;
+	margin: auto;
+
+	width: 30%;
+	display: flex;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#radio-sizes-container div
+{
+	width: 33.33%;
+}
+
+

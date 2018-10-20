@@ -1,0 +1,249 @@
+/*--================================================================================================
+
+
+		 /$$   /$$ /$$           /$$             /$$   /$$ /$$           /$$                
+		| $$  | $$|__/          | $$            | $$  /$$/|__/          | $$                
+		| $$  | $$ /$$  /$$$$$$ | $$$$$$$       | $$ /$$/  /$$  /$$$$$$$| $$   /$$  /$$$$$$$
+		| $$$$$$$$| $$ /$$__  $$| $$__  $$      | $$$$$/  | $$ /$$_____/| $$  /$$/ /$$_____/
+		| $$__  $$| $$| $$  \ $$| $$  \ $$      | $$  $$  | $$| $$      | $$$$$$/ |  $$$$$$ 
+		| $$  | $$| $$| $$  | $$| $$  | $$      | $$\  $$ | $$| $$      | $$_  $$  \____  $$
+		| $$  | $$| $$|  $$$$$$$| $$  | $$      | $$ \  $$| $$|  $$$$$$$| $$ \  $$ /$$$$$$$/
+		|__/  |__/|__/ \____  $$|__/  |__/      |__/  \__/|__/ \_______/|__/  \__/|_______/ 
+		               /$$  \ $$                                                            
+		              |  $$$$$$/                                                            
+		               \______/                                                            
+
+
+====================================================================================================
+
+
+
+							                              _ _  
+							     /\                      (_) |
+							    /  \   ___ ___ _   _  ___ _| |
+							   / /\ \ / __/ __| | | |/ _ \ | |
+							  / ____ \ (_| (__| |_| |  __/ | |
+							 /_/    \_\___\___|\__,_|\___|_|_| 
+
+
+================================ W E L C O M E   D E V' ========================================--*/
+@font-face { 
+
+	font-family: 'Bold';
+	src: url('./data/police/theboldfont.ttf');
+}
+
+@font-face { 
+
+	font-family: 'Futura';
+	src: url('./data/police/Futura Std Heavy Oblique.otf');
+}
+
+
+@font-face { 
+
+	font-family: 'Article name';
+	src: url('./data/police/Quicksand_Bold_Oblique.otf');
+}
+
+@font-face { 
+
+	font-family: 'Price';
+	src: url('./data/police/Quicksand_Bold.otf');
+}
+
+@font-face { 
+
+	font-family: 'Quick_light';
+	src: url('./data/police/Quicksand_Light.otf');
+}
+
+
+
+/*======================================================================================*/
+
+#latest-arival-title
+{
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Quick_light',Arial;
+	color: white;
+}
+
+
+#article-wrap
+{
+	display: flex;
+	flex-wrap: wrap;
+
+
+
+
+	justify-content: space-around;
+}
+
+article
+{
+	width: 150px;
+	height: 160px;
+	position: relative;
+
+	margin: 20px;
+
+	overflow: hidden;
+
+
+	/*background-color: rgba(255,255,255,0.7);*/
+	/*box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;*/
+}
+
+article:hover
+{
+	cursor: pointer;
+}
+
+.thumbnail
+{
+	width: 100%;
+	height: 150px;
+
+	overflow: hidden;
+	position: relative;
+
+	border-radius: 20px;
+}
+.thumbnail img
+{
+	width: 100%;
+	
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+
+}
+
+.article-name
+{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	color: white;
+
+	font-family: 'Price', Arial;
+
+	display: inline-block;
+    vertical-align: middle;
+  
+	margin-top: 8px;
+}
+.article-brand
+{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	color: white;
+
+	font-family: 'Quick_light_i', Arial;
+
+	display: inline-block;
+    vertical-align: middle;
+  
+}
+
+
+.price
+{
+	display: none;
+	font-family: 'Price',Arial;
+	color: #FF5328;
+
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+    vertical-align: middle;
+	margin-top: 5px;
+
+}
+
+
+
+
+#link-shop
+{
+	padding: 5px;
+
+	display: inline-block;
+
+
+	font-family: "Quick_light",Arial;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+#shop-link-wrap
+{
+	margin-top: 20px;
+	text-align: center;
+}
+/*======================================================================================*/
+
+
+.search { 
+	position: relative;
+	padding:6px 15px 6px 30px;
+	margin:3px; 
+	background: url('search.png') no-repeat 8px 6px; 
+	margin-top: 20px;
+
+	width: 60%;
+
+	transition: 0.6s;
+
+
+}
+
+
+
+.search:focus
+{
+	width: 100%;
+
+	transition: 0.6s;
+}
+
+
+.rounded { 
+	border-radius:15px; 
+	-moz-border-radius:15px; 
+	-webkit-border-radius:15px; 
+}
+
+input[type=text]{
+	color:#bcbcbc;
+}
+
+.dark{
+	background: url('./images/dark_grey.jpg');
+}
+
+.dark input[type=text]{
+	border:1px solid #2a2e31;
+	background-color:#2d3035;
+	color:#505358;
+}
+
+#search-shrink
+{
+	position: fixed;
+	left: 2%;
+	top: 100px;
+	width: 13%;
+
+	transition: 0.1s;
+
+	margin-left: 5px;
+}
+

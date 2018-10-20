@@ -1,0 +1,9 @@
+[26-Sep-2018 09:03:39 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1063): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(168): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(172): PDF_crater()
+#4 /home/highkicks/public_html/cancel/index.php(44): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271

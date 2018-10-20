@@ -1,0 +1,1586 @@
+@font-face { 
+
+
+
+	font-family: 'Bold';
+
+	src: url('https://highkicks.fr/data/police/theboldfont.ttf');
+
+}
+
+@font-face { 
+
+
+
+	font-family: 'Roboto-M';
+
+	src: url('https://highkicks.fr/data/police/Roboto-Medium.ttf');
+
+}
+
+
+
+@font-face { 
+
+
+
+	font-family: 'Roboto-L';
+
+	src: url('https://highkicks.fr/data/police/Roboto-Light.ttf');
+
+}
+
+
+
+@font-face { 
+
+
+
+	font-family: 'Futura';
+
+	src: url('https://highkicks.fr/data/police/Futura Std Heavy Oblique.otf');
+
+}
+
+
+
+
+
+@font-face { 
+
+
+
+	font-family: 'Article name';
+
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold_Oblique.otf');
+
+}
+
+
+
+@font-face { 
+
+
+
+	font-family: 'Price';
+
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold.otf');
+
+}
+
+
+
+@font-face { 
+
+
+
+	font-family: 'Quick_light';
+
+	src: url('https://highkicks.fr/data/police/Quicksand_Light.otf');
+
+}
+
+@font-face { 
+
+
+
+	font-family: 'Quick_light_i';
+
+	src: url('https://highkicks.fr/data/police/Quicksand_Light_Oblique.otf');
+
+}
+
+
+
+
+
+body
+
+{
+
+	background-color: #343434;
+
+	background-image: url("https://highkicks.fr/data/image/bg.jpg");
+
+	background-size: 100% 130%;
+
+	background-attachment: fixed;
+
+	background-repeat: no-repeat;
+
+	position: absolute;
+
+	margin: 0;
+
+
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+
+
+#menu-left
+
+{
+
+	
+
+	margin-left: 2.5%;
+
+	margin-top: 10%;
+
+	float:left;
+
+	width: 15%;
+
+
+
+}
+
+
+
+/*#twitter-img 
+
+{
+
+	
+
+	width: 25%;
+
+	cursor: pointer;
+
+
+
+}
+
+
+
+#twitter-open
+
+{
+
+	height: 50%;
+
+}*/
+
+#insta-img
+
+{
+
+	width: 25%;
+
+	cursor: pointer;
+
+
+
+}
+
+
+
+#insta-open
+
+{
+
+	
+
+}
+
+#snap-img
+
+{
+
+	width: 25%;
+
+	cursor: pointer;
+
+}
+
+#img
+
+{
+
+	text-align: center;
+
+}
+
+
+
+#snap-open
+
+{
+
+	margin-top: 15%;
+
+	display: none;
+
+}
+
+#snap-open img
+
+{
+
+	width: 100%
+
+
+
+
+
+}
+
+#snap-name
+
+{
+
+	text-align: center;
+
+	color: white;
+
+	font-family: 'Quick_light',Arial;
+
+}
+
+
+
+#insta-name
+
+{
+
+	text-align: center;
+
+	color: white;
+
+	font-family: 'Quick_light',Arial;
+
+}
+
+/*======================================================================================*/
+
+#up-right-menu
+
+{
+
+	position: fixed;
+
+	top: 20px;
+
+	right: 2.5%;
+
+	width: 5%;
+
+	display: flex;
+
+
+
+}
+
+
+
+
+
+
+
+#no-article
+
+{
+
+	text-align: center;
+
+	font-family: "Quick_light",Arial;
+
+	color: #AAAAAA;
+
+}
+
+
+
+
+
+
+
+#compte
+
+{
+
+	cursor: pointer;
+
+}
+
+#compte a
+{
+	transition: 0.4s;
+
+	white-space: nowrap;
+	position: absolute;
+	right: 20px;
+
+	padding: 5px;
+	color: #FF5328;
+	border: 2px solid #FF5328;
+
+	border-radius: 10px;
+
+	font-family: "Price";
+	font-size: 21px;
+}
+
+#compte a:hover
+{
+
+	transition: 0.4s;
+
+
+	color: #343434;
+	background-color: #FF5328;
+
+}
+
+
+#compte img:hover
+
+{
+
+	-webkit-filter:invert(100%);
+
+     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+
+     transition: 0.3s;
+
+}
+
+
+
+#compte img
+
+{
+
+	width: 70%;
+
+	transition: 0.2s;
+
+}
+
+
+
+#compte-open
+
+{
+
+	display: none;
+
+	text-align: center;
+
+
+
+	min-height: 200px;
+
+	min-width: 300px;
+
+
+
+
+
+	background-color: rgba(50,50,50,0.85);
+
+
+
+	position: fixed;
+
+	right: 5.5%;
+
+	top: 55px;
+
+
+
+	border-radius: 10px;
+
+
+
+}
+
+#compte-title
+
+{
+
+
+
+	margin-top: 20px;
+
+	margin-bottom: 10px;
+
+	text-align: center;
+
+	color: #FF5328;
+
+	font-family: "Price",Arial;
+
+
+
+}
+
+
+
+.pseudoid
+
+{
+
+	font-family: "Price",Arial;
+
+	color : white;
+
+}
+
+
+
+#pseudoid
+
+{
+	margin-top: 5px;
+
+	margin-bottom: 10px;
+
+	margin-left: 10px;
+
+	font-family: "Price",Arial;
+
+	color : black;
+
+}
+
+
+
+
+
+.mot_de_passeid
+
+{
+
+	margin-top: 10px;
+
+	font-family: "Price",Arial;
+
+	color : white;
+
+}
+
+
+
+#mot_de_passeid
+
+{
+
+	margin-top: 5px;
+
+	margin-left: 10px;
+
+	font-family: "Price",Arial;
+
+	color : black;
+
+}
+
+#submit_connexion
+
+{
+
+	margin-top: 20px;
+
+	margin-bottom: 20px;
+
+
+
+	padding: 2%;
+
+	background-color: #FF5328;
+
+
+
+	border:none;
+
+
+
+	font-family: "Bold",Arial;
+
+
+
+	color: white;
+
+	letter-spacing: 3px;
+
+
+
+	font-size: 15px;
+
+
+
+	cursor: pointer;
+
+}
+
+#inscription-link-text
+
+{
+
+	margin: auto;
+
+	margin-top: 10px;
+
+	margin-bottom: 20px;
+
+
+
+	padding: 2%;
+
+
+
+
+
+	border: solid 2px #666666;
+
+
+
+	font-family: "Bold",Arial;
+
+
+
+	color: #666666;
+
+	letter-spacing: 3px;
+
+
+
+	font-size: 20px;
+
+
+
+	cursor: pointer;
+
+
+
+	border-radius: 20px;
+
+
+
+
+
+}
+
+
+
+#connexion-form
+
+{
+
+	text-align: center;
+
+	margin: 10%;
+
+
+
+	margin-top: 30px;
+
+
+
+}
+
+
+
+#connexion-form input
+
+{
+
+	border:none;
+
+	border-radius: 5px;
+
+	padding: 4px;
+
+
+
+}
+
+
+
+#disconnection-link
+
+{
+
+	padding-left: 20px;
+
+	text-decoration: none;
+
+}
+
+
+
+
+
+#connexion-fail
+
+{
+
+	display: none;
+
+	color: red;
+
+	font-size: 15px;
+
+	text-align: center;
+
+
+
+	font-family: "Price",Arial;
+
+}
+
+
+
+#disconnection-button
+
+{
+
+	width: 58%;
+
+	height: 100%;
+
+	display: block;
+
+	margin: auto;
+
+	cursor: pointer;
+
+
+
+	border-radius: 10px;
+
+
+
+	padding: 10px;
+
+	margin-bottom: 15px;
+
+
+
+	background-color: #ff2626;
+
+	color: white;
+
+
+
+	border: none;
+
+
+
+	font-family: "Bold",Arial;
+
+	font-size: 14px;
+
+	letter-spacing: 2px;
+
+	text-align: right;
+
+	vertical-align: middle;
+
+	line-height: 100%;
+
+	background-image: url('https://highkicks.fr/data/image/disconnect.png');
+
+	background-position: 10px center;
+
+	background-repeat: no-repeat;
+
+	display: block;
+
+	background-size: auto 80%;
+
+ }
+
+
+
+
+.account-param-button
+{
+	transition: 0.2s;
+
+	width: 80%;
+
+	height: 100%;
+
+	display: block;
+
+	margin: auto;
+
+	cursor: pointer;
+
+
+
+	padding: 10px;
+	margin-left: 40px;
+	color: white;
+
+
+	border: none;
+
+
+
+	font-family: "Roboto-L",Arial;
+
+	font-size: 18px;
+
+	letter-spacing: 2px;
+
+	text-align: left;
+
+	vertical-align: middle;
+
+	line-height: 100%;
+}
+
+.parameter_links
+{
+	width: 100%;
+
+
+	background-position: 10px center;
+
+	background-repeat: no-repeat;
+
+	display: block;
+
+	background-size: auto 80%;
+
+	text-decoration: none;
+
+}
+
+#order-link
+{
+	background-image: url('https://highkicks.fr/data/image/order-menu-thb.png');
+	margin-top: 20px;
+
+}
+
+#param-link
+{
+	background-image: url('https://highkicks.fr/data/image/settings-account.png');
+
+}
+
+.parameter_links:hover
+
+{
+
+	transition: 0.2s;
+
+	background-color: #a3a3a3;
+
+}
+
+
+
+#account-info-link
+
+{
+
+	display: block;
+
+	width: 70%;
+
+	margin: auto;
+
+
+
+	background-color: white;
+
+	color: #353535;
+
+
+
+	text-decoration:none;
+
+	padding: 5px;
+
+	font-family: "Bold",Arial;
+
+
+
+}
+
+
+
+#connected
+
+{
+
+	color: #00b721;
+
+	text-align: center;
+
+	font-family: "Bold",Arial;
+
+}
+
+
+
+#pseudo
+
+{
+
+	text-align: left;
+
+	width: 60%;
+
+	display: block;
+
+	margin: auto;
+
+	font-size: 20px;
+
+	font-family: "Price",Arial;
+
+	color: white;
+
+}
+
+
+
+#forgot-link
+
+{
+
+	color: #FF5F49;
+
+	font-family: "Price";
+
+}
+
+/*======================================================================================*/
+
+
+
+#body-wrap
+
+{
+
+	margin: auto;
+
+
+
+	width: 60%;
+
+	
+
+	background-color: rgba(0, 0, 0, 0.4);;
+
+	margin-top: 200px;
+
+	position: relative;
+
+	border-radius: 15px;
+
+
+
+}
+
+
+
+/*======================================================================================*/
+
+
+
+#menu
+
+{
+
+	position: fixed;
+
+	top: 0px;
+
+
+
+	width: 100%;
+
+	padding-bottom: 20px;
+
+
+
+	z-index: 100;
+
+}
+
+
+
+#brand-name
+
+{
+
+	text-align: center;
+
+	font-size: 50px;
+
+	
+
+	color: white;
+
+	font-family: 'Futura',Arial;
+
+	cursor: pointer;
+
+	
+
+    -webkit-transition: all 0.3s;
+
+    -moz-transition: all 0.3s;
+
+    transition: all 0.3s;
+
+
+
+    width: 100%;
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+.shrink
+
+{
+
+	background-color: rgba(0,0,0,0.7);
+
+	transition: 1s;
+
+
+
+	display: flex;
+
+
+
+	height: 50px;
+
+}
+
+
+
+.shrink #menu-list
+
+{
+
+	margin-top: 30px;
+
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+	.shrink #brand-name
+
+	{
+
+		font-size: 35px;
+
+		width: 20%;
+
+		transition: 0.5s;
+
+
+
+		margin-bottom: 0px;
+
+		margin-top: 20px;
+
+
+
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+.shrink #brand-name
+
+	{
+
+		font-size: 30px;
+
+		transition: 0.5s;
+
+
+
+		margin-bottom: 0px;
+
+		margin-top: 20px;
+
+
+
+	}
+
+}
+
+/*======================================================================================*/
+
+ 
+
+#menu-list
+
+{
+
+	display: flex;
+
+	width: 50%;
+
+	margin: auto;
+
+
+
+	justify-content: space-around;
+
+
+
+	list-style: none;
+
+
+
+	transition: 0.5s;
+
+
+
+	transition-delay: 0.5s;
+
+}
+
+
+
+#menu-list a
+
+{
+
+	position: relative;
+
+}
+
+
+
+#nb_article{
+
+	border-radius: 50%;
+
+	background-color: #FF5328;
+
+	color: white;
+
+	text-decoration: none;
+
+	font-family: "Price",Arial;
+
+	text-align: center;
+
+	position: absolute;
+
+	right: -9%;
+
+	top: -19%;
+
+	width: 20px;
+
+	display: none;
+
+}
+
+
+
+.menu-link
+
+{
+
+	color: white;
+
+	font-family: "Price",Arial;
+	position: relative;
+
+
+
+}
+
+
+
+.nav-link-a
+
+{
+
+	text-decoration: none;
+
+	color: white;
+
+	padding: 5px;
+
+
+
+	transition: 0.4s;
+
+
+
+}
+
+
+
+.nav-link-a:hover
+
+{
+
+	color: black;
+
+	background-color: white;
+
+}
+
+
+
+
+
+.sidenav {
+
+    height: 100%; /* 100% Full-height */
+
+    width: 0; /* 0 width - change this with JavaScript */
+
+    position: fixed; /* Stay in place */
+
+    z-index: 1; /* Stay on top */
+
+    top: 0; /* Stay at the top */
+
+    left: 0;
+
+    background-color: #111; /* Black*/
+
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+    padding-top: 60px; /* Place content 60px from the top */
+
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+    display: none;
+
+}
+
+
+
+#openNav
+
+{
+
+	cursor: pointer;
+
+	
+
+	position: fixed;
+
+	top: 19px;
+
+	left: 2.5%;
+
+	width: 10%;
+
+	
+
+	display: none;
+
+
+
+}
+
+
+
+#openNav img{
+
+	width: 100%;
+
+}
+
+/* The navigation menu links */
+
+.sidenav a {
+
+    padding: 8px 8px 8px 32px;
+
+    text-decoration: none;
+
+    font-size: 80px;
+
+    color: #818181;
+
+    display: block;
+
+    transition: 0.3s;
+
+
+
+    font-family: "Price";
+
+    color: white;
+
+}
+
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+
+    color: #f1f1f1;
+
+}
+
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+
+    position: absolute;
+
+    top: 0;
+
+    right: 25px;
+
+    font-size: 36px;
+
+    margin-left: 50px;
+
+}
+
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+
+    transition: margin-left .5s;
+
+    padding: 20px;
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .sidenav
+
+    {
+
+    	display: block;
+
+    }
+
+    #openNav
+
+    {
+
+    	display: block;
+
+    }
+
+
+
+    #menu-list
+
+    {
+
+    	display: none;
+
+    }
+
+    #body-wrap
+
+    {
+
+    	width: 90%;
+
+
+    }
+
+
+
+    body
+
+    {
+
+    	background-size: auto 100%;
+
+    	background-position: center;
+
+
+
+    }
+
+    
+
+
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+    #menu-left{
+
+    	display: none;
+
+    }
+
+}
+
+
+
+
+
+#mySidenav
+
+{
+
+	font-size: 60px;
+
+}
+
+
+
+
+
+====================================================================================================
+
+								FOOTER
+
+====================================================================================================
+
+.div-foot h4
+
+{
+
+	font-family: "Price",Arial;
+
+	color: #999999;
+
+}
+
+	
+
+
+
+footer h4
+
+{
+
+	font-family: "Price",Arial;
+
+	color: #999999;
+
+
+
+}
+
+
+
+#footerref
+
+{
+
+	width: 100%;
+
+}
+
+
+
+.div-foot
+
+{
+
+	width: 30%;
+
+	text-align: center;
+
+	padding-bottom: 15px;
+
+
+
+}	
+
+
+
+#paypal-img
+
+{
+
+
+
+	width: 60%;
+
+}
+
+
+
+.foot-nav-link
+
+{
+
+	text-decoration: none;
+
+	color: #888888;
+
+	padding: 5px;
+
+	font-family: "Price",Arial;
+
+	cursor: pointer;
+
+	
+
+
+
+	transition: 0.4s;
+
+
+
+}
+
+#ref
+
+{
+
+	font-family: "Price",Arial;
+
+	color: #888888;
+
+	display: block;
+
+	margin: auto;
+
+	padding-bottom: 10px;
+
+	text-align: center;
+
+
+
+
+
+}
+
+.foot-nav-link:hover
+
+{
+
+	color: #FF5328;
+
+}
+
+
+
+.content1
+
+{
+
+	padding:0;
+
+	font-size: 150%;
+
+	margin-left: 0px;
+
+	width: 400px;
+
+}
+
+
+
+
+
+
+
+#c-mail
+
+{
+
+	text-align: left;
+
+	width: 60%;
+
+	display: block;
+
+	margin: auto;
+
+	font-family: "Quick_light";
+
+	color: white;
+
+}
+
+
+
+#lbl-checkbox-keeplgd
+
+{
+
+	color: white;
+
+	font-family: "Roboto-L";
+
+	margin-top: 10px;
+
+}
+
+.marketplace-lnk
+{
+	pointer-events: none;
+	color: #333030;
+	background-color: #828282;
+	align-items: center;
+}
+
+#comingsoon_mk
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	
+	font-family: "Price";
+	top: -35px;
+
+	color: #FF5328;
+
+}
+
+.topnav input[type=text] {
+  	padding: 6px;
+ 	font-size: 17px;
+  	border: none;
+  	background-color: rgb(104,104,104);
+	color: black;
+}
+
+.topnav .search-container button {
+  	float: right;
+  	padding: 6px 10px;
+  	margin-top: 8px;
+  	margin-right: 16px;
+  	background: #ddd;
+  	font-size: 17px;
+  	border: none;
+  	cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  	background: #ccc;
+}
+.topnav img{
+	width: 29px;
+}

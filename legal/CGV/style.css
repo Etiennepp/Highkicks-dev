@@ -1,0 +1,32 @@
+#cgv-content
+{
+	width: 80%;
+	display: block;
+	text-align: justify;
+	color: white;
+
+	margin: auto;
+
+	padding-bottom: 40px;
+}
+
+.sub-content
+{
+	font-family: "Roboto-L";
+}
+
+.subtitle
+{
+
+	font-family: "Roboto-M";
+}
+
+#title_cgv
+{
+	color: white;
+	font-family: "Roboto-M";
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}

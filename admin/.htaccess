@@ -1,0 +1,7 @@
+AuthName "Page d'administration protégée"
+
+AuthType Basic
+
+AuthUserFile "/home/highkicks/public_html/admin/.htpasswd"
+
+Require valid-user

@@ -1,0 +1,162 @@
+/*--================================================================================================
+
+
+		 /$$   /$$ /$$           /$$             /$$   /$$ /$$           /$$                
+		| $$  | $$|__/          | $$            | $$  /$$/|__/          | $$                
+		| $$  | $$ /$$  /$$$$$$ | $$$$$$$       | $$ /$$/  /$$  /$$$$$$$| $$   /$$  /$$$$$$$
+		| $$$$$$$$| $$ /$$__  $$| $$__  $$      | $$$$$/  | $$ /$$_____/| $$  /$$/ /$$_____/
+		| $$__  $$| $$| $$  \ $$| $$  \ $$      | $$  $$  | $$| $$      | $$$$$$/ |  $$$$$$ 
+		| $$  | $$| $$| $$  | $$| $$  | $$      | $$\  $$ | $$| $$      | $$_  $$  \____  $$
+		| $$  | $$| $$|  $$$$$$$| $$  | $$      | $$ \  $$| $$|  $$$$$$$| $$ \  $$ /$$$$$$$/
+		|__/  |__/|__/ \____  $$|__/  |__/      |__/  \__/|__/ \_______/|__/  \__/|_______/ 
+		               /$$  \ $$                                                            
+		              |  $$$$$$/                                                            
+		               \______/                                                             
+
+================================ W E L C O M E   D E V' ========================================--*/
+@font-face { 
+
+	font-family: 'Bold';
+	src: url('https://highkicks.fr/data/police/theboldfont.ttf');
+}
+
+@font-face { 
+
+	font-family: 'Futura';
+	src: url('https://highkicks.fr/data/police/Futura Std Heavy Oblique.otf');
+}
+
+
+@font-face { 
+
+	font-family: 'Article name';
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold_Oblique.otf');
+}
+
+@font-face { 
+
+	font-family: 'Price';
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold.otf');
+}
+
+@font-face { 
+
+	font-family: 'Quick_light';
+	src: url('https://highkicks.fr/data/police/Quicksand_Light.otf');
+}
+
+
+#title-add
+{
+	padding: 15px;
+	font-family: "Price",Arial;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.add-inf
+{
+	text-align: center;
+	color: white;
+	font-family: "Bold",Arial;
+}
+
+#photo-input-wrap
+{
+	width: 50%;
+	display: block;
+	margin-left: 20%;
+}
+#photo-input-wrap input
+{
+	font-family: "Bold",Arial;
+
+	margin-bottom: 30px;
+	color: white;
+}
+
+#submit-add-article
+{
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+
+	border: none;
+	padding: 10px;
+
+	letter-spacing: 2px;
+
+	font-family: "Bold", Arial;
+
+	color: white;
+	background-color: #65ce29;
+
+}
+
+.add-select
+ {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 1em;
+	max-width: 350px;
+	width: calc(100% - 2em);
+	vertical-align: top;
+	margin-left: 20%;	
+	border-radius: 0;
+	border: none;
+
+		padding: 0.8em;
+			width: 100%;
+	background-color: #d0d1d0;
+	border: 2px solid transparent;
+	-webkit-transition: background-color 0.25s, border-color 0.25s;
+	transition: background-color 0.25s, border-color 0.25s;
+	color: #696969;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+textarea
+{
+	position: relative;
+
+	display: block;
+	width: 60%;
+
+	margin-left: 20%;
+	padding: 0.8em;
+position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 1em;
+	vertical-align: top;
+	margin-left: 20%;	
+	border-radius: 0;
+	border: none;
+
+		padding: 0.8em;
+	background-color: #d0d1d0;
+	border: 2px solid transparent;
+	-webkit-transition: background-color 0.25s, border-color 0.25s;
+	transition: background-color 0.25s, border-color 0.25s;
+	color: #696969;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}

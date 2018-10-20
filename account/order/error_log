@@ -1,0 +1,47 @@
+[13-Oct-2018 08:34:45 America/New_York] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/highkicks/public_html/account/order/index.php on line 105
+[13-Oct-2018 08:34:47 America/New_York] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/highkicks/public_html/account/order/index.php on line 105
+[13-Oct-2018 08:48:54 America/New_York] PHP Fatal error:  Call to undefined method PDOStatement::rowCountn() in /home/highkicks/public_html/account/order/index.php on line 136
+[13-Oct-2018 08:48:55 America/New_York] PHP Fatal error:  Call to undefined method PDOStatement::rowCountn() in /home/highkicks/public_html/account/order/index.php on line 136
+[13-Oct-2018 10:58:08 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/highkicks/public_html/account/order/index.php:161
+Stack trace:
+#0 /home/highkicks/public_html/account/order/index.php(161): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/account/order/index.php on line 161
+[13-Oct-2018 10:59:40 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/highkicks/public_html/account/order/index.php:161
+Stack trace:
+#0 /home/highkicks/public_html/account/order/index.php(161): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/account/order/index.php on line 161
+[13-Oct-2018 11:00:06 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/highkicks/public_html/account/order/index.php:161
+Stack trace:
+#0 /home/highkicks/public_html/account/order/index.php(161): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/account/order/index.php on line 161
+[13-Oct-2018 11:00:28 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/highkicks/public_html/account/order/index.php:160
+Stack trace:
+#0 /home/highkicks/public_html/account/order/index.php(160): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/account/order/index.php on line 160
+[13-Oct-2018 11:00:31 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/highkicks/public_html/account/order/index.php:160
+Stack trace:
+#0 /home/highkicks/public_html/account/order/index.php(160): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/account/order/index.php on line 160
+[13-Oct-2018 11:00:47 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/highkicks/public_html/account/order/index.php:161
+Stack trace:
+#0 /home/highkicks/public_html/account/order/index.php(161): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/account/order/index.php on line 161
+[13-Oct-2018 11:06:42 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/highkicks/public_html/account/order/index.php on line 166
+[13-Oct-2018 11:06:43 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/highkicks/public_html/account/order/index.php on line 166
+[13-Oct-2018 11:06:44 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/highkicks/public_html/account/order/index.php on line 166
+[13-Oct-2018 11:32:07 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[13-Oct-2018 11:32:08 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[13-Oct-2018 11:34:21 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[13-Oct-2018 11:36:04 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[13-Oct-2018 11:36:05 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[13-Oct-2018 11:38:38 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[13-Oct-2018 11:41:10 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[13-Oct-2018 11:46:56 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[13-Oct-2018 11:46:58 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/highkicks/public_html/account/order/index.php on line 158
+[15-Oct-2018 15:59:29 America/New_York] PHP Parse error:  syntax error, unexpected '.' in /home/highkicks/public_html/account/order/index.php on line 188

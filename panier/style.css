@@ -1,0 +1,186 @@
+/*--================================================================================================
+
+
+		 /$$   /$$ /$$           /$$             /$$   /$$ /$$           /$$                
+		| $$  | $$|__/          | $$            | $$  /$$/|__/          | $$                
+		| $$  | $$ /$$  /$$$$$$ | $$$$$$$       | $$ /$$/  /$$  /$$$$$$$| $$   /$$  /$$$$$$$
+		| $$$$$$$$| $$ /$$__  $$| $$__  $$      | $$$$$/  | $$ /$$_____/| $$  /$$/ /$$_____/
+		| $$__  $$| $$| $$  \ $$| $$  \ $$      | $$  $$  | $$| $$      | $$$$$$/ |  $$$$$$ 
+		| $$  | $$| $$| $$  | $$| $$  | $$      | $$\  $$ | $$| $$      | $$_  $$  \____  $$
+		| $$  | $$| $$|  $$$$$$$| $$  | $$      | $$ \  $$| $$|  $$$$$$$| $$ \  $$ /$$$$$$$/
+		|__/  |__/|__/ \____  $$|__/  |__/      |__/  \__/|__/ \_______/|__/  \__/|_______/ 
+		               /$$  \ $$                                                            
+		              |  $$$$$$/                                                            
+		               \______/                                                             
+====================================================================================================
+
+
+								  _____            _           
+								 |  __ \          (_)          
+								 | |__) |_ _ _ __  _  ___ _ __ 
+								 |  ___/ _` | '_ \| |/ _ \ '__|
+								 | |  | (_| | | | | |  __/ |   
+								 |_|   \__,_|_| |_|_|\___|_|   
+
+
+================================ W E L C O M E   D E V' ========================================--*/
+@font-face { 
+
+	font-family: 'Bold';
+	src: url('https://highkicks.fr/data/police/theboldfont.ttf');
+}
+
+@font-face { 
+
+	font-family: 'Futura';
+	src: url('https://highkicks.fr/data/police/Futura Std Heavy Oblique.otf');
+}
+
+
+@font-face { 
+
+	font-family: 'Article name';
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold_Oblique.otf');
+}
+
+@font-face { 
+
+	font-family: 'Price';
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold.otf');
+}
+
+@font-face { 
+
+	font-family: 'Quick_light';
+	src: url('https://highkicks.fr/data/police/Quicksand_Light.otf');
+}
+
+/*======================================================================================================*/
+
+#title-panier
+{
+		padding: 15px;
+	font-family: "Price",Arial;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+
+}
+
+#tablePanier
+{
+	width: 90%;
+
+	color: white;
+	font-family: "Price",Arial;
+
+	text-align: center;
+	margin: auto;
+}
+
+#total
+{
+	color: white;
+	position: relative;
+	font-family: "Price",Arial;
+	padding: 10px;
+
+}
+#bite
+{
+	width: 100%;
+	text-align: right;
+}
+
+
+#empty_basket
+{
+	text-align: center;
+	color: white;
+	font-family: "Price",Arial;	
+	padding-bottom: 30px;
+}
+#empty_basket a
+{
+	color: #FF5328;
+	text-decoration: none;
+}
+
+.suppr
+{
+	background-color: #FF5328;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#payement
+{
+	background-color: #FF5328;
+	color: #001f6b;
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: "Price",Arial;
+	text-align: center;
+	
+	cursor: pointer;
+	width: 5%;
+
+	margin-left: auto;
+	margin-right: 3%;
+	
+	
+}
+
+#test
+{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 1%;
+}
+
+#payement img
+{
+	width: 100%;
+	margin-top: 5px;
+}
+
+
+
+html
+{
+	height: 80%;
+}
+
+.nomprod
+{
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.nomprod:hover
+{
+	color: #FF5328;
+}
+
+select option, select
+{
+
+	border: none;
+	padding: 5px;
+	font-family: "Bold",Arial;
+	font-size: 13;
+	background-color: #FF5328;
+	color: white;
+	border-radius: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url('https://highkicks.fr/data/image/dropdown-arrow.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 20px;
+	border-radius: 10px;
+}

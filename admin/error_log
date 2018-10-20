@@ -1,0 +1,331 @@
+[27-May-2018 13:15:50 America/New_York] PHP Parse error:  syntax error, unexpected '$_FILES' (T_VARIABLE) in /home/highkicks/public_html/admin/administration.php on line 167
+[27-May-2018 13:53:42 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/administration.php on line 169
+[27-May-2018 13:54:43 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/administration.php on line 169
+[27-May-2018 13:55:06 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/administration.php on line 169
+[27-May-2018 13:55:07 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/administration.php on line 169
+[06-Jun-2018 15:56:46 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'condition_produit' in 'field list'' in /home/highkicks/public_html/admin/index.php:228
+Stack trace:
+#0 /home/highkicks/public_html/admin/index.php(228): PDO->prepare('INSERT INTO Mar...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/index.php on line 228
+[13-Jul-2018 10:02:34 America/New_York] PHP Parse error:  syntax error, unexpected '$id1' (T_VARIABLE) in /home/highkicks/public_html/admin/index.php on line 200
+[18-Jul-2018 11:34:08 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:35:17 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:35:17 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:35:17 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:35:18 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:35:18 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:35:24 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:37:03 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:37:03 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:37:04 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:37:04 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:37:04 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:37:04 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:37:04 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:37:04 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:41:15 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=11' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:41:17 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=11' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:41:17 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=11' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:41:17 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=11' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:41:17 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=11' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:41:22 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=11' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:45:58 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:45:59 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:45:59 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:45:59 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:45:59 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:45:59 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:46:00 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:46:02 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:46:02 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:46:03 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:52:19 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:52:34 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 11:53:05 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:53:11 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:54:44 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:58:50 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:58:57 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:59:00 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 11:59:36 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 12:00:15 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:18
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(18): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 18
+[18-Jul-2018 12:00:55 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:18
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(18): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 18
+[18-Jul-2018 12:00:56 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:18
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(18): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 18
+[18-Jul-2018 12:03:40 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=13' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:16
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(16): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 16
+[18-Jul-2018 12:06:25 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 12:06:55 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 12:08:26 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'type_article=? WHERE id=10' at line 1' in /home/highkicks/public_html/admin/ajax-modify.php:17
+Stack trace:
+#0 /home/highkicks/public_html/admin/ajax-modify.php(17): PDO->prepare('UPDATE Articles...')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[18-Jul-2018 12:11:20 America/New_York] PHP Fatal error:  Call to undefined method PDOStatement::bind_param() in /home/highkicks/public_html/admin/ajax-modify.php on line 18
+[18-Jul-2018 17:01:39 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 21
+[19-Jul-2018 03:11:24 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:11:28 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:11:29 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:11:31 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:11:59 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:17:55 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:19:40 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:20:07 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:20:22 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 17
+[19-Jul-2018 03:22:34 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 18
+[19-Jul-2018 09:27:34 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 18
+[19-Jul-2018 09:28:44 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/admin/ajax-modify.php on line 18
+[03-Oct-2018 09:29:29 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'type_article' cannot be null' in /home/highkicks/public_html/admin/index.php:253
+Stack trace:
+#0 /home/highkicks/public_html/admin/index.php(253): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/index.php on line 253
+[06-Oct-2018 09:11:13 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tailles' cannot be null' in /home/highkicks/public_html/admin/index.php:280
+Stack trace:
+#0 /home/highkicks/public_html/admin/index.php(280): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/index.php on line 280
+[06-Oct-2018 09:16:02 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tailles' cannot be null' in /home/highkicks/public_html/admin/index.php:282
+Stack trace:
+#0 /home/highkicks/public_html/admin/index.php(282): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/index.php on line 282
+[06-Oct-2018 09:17:53 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tailles' cannot be null' in /home/highkicks/public_html/admin/index.php:282
+Stack trace:
+#0 /home/highkicks/public_html/admin/index.php(282): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/index.php on line 282
+[16-Oct-2018 10:38:41 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/highkicks/public_html/admin/index.php on line 272
+[16-Oct-2018 10:43:24 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/highkicks/public_html/admin/index.php on line 272
+[16-Oct-2018 10:44:04 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/highkicks/public_html/admin/index.php on line 272
+[16-Oct-2018 10:51:21 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/highkicks/public_html/admin/index.php on line 306
+[16-Oct-2018 10:51:23 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/highkicks/public_html/admin/index.php on line 306
+[16-Oct-2018 10:52:30 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/highkicks/public_html/admin/index.php on line 306
+[16-Oct-2018 10:54:44 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Image file /tmp/php7SGeZ2 is not readable' in /home/highkicks/public_html/admin/image_upload_normalize.php:46
+Stack trace:
+#0 /home/highkicks/public_html/admin/image_upload_normalize.php(29): ImageManipulator->setImageFile('/tmp/php7SGeZ2')
+#1 /home/highkicks/public_html/admin/index.php(262): ImageManipulator->__construct('/tmp/php7SGeZ2')
+#2 {main}
+  thrown in /home/highkicks/public_html/admin/image_upload_normalize.php on line 46
+[16-Oct-2018 10:55:59 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Image file /tmp/phpfae9xh is not readable' in /home/highkicks/public_html/admin/image_upload_normalize.php:46
+Stack trace:
+#0 /home/highkicks/public_html/admin/image_upload_normalize.php(29): ImageManipulator->setImageFile('/tmp/phpfae9xh')
+#1 /home/highkicks/public_html/admin/index.php(262): ImageManipulator->__construct('/tmp/phpfae9xh')
+#2 {main}
+  thrown in /home/highkicks/public_html/admin/image_upload_normalize.php on line 46
+[16-Oct-2018 10:56:58 America/New_York] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Error creating directory /xx' in /home/highkicks/public_html/admin/image_upload_normalize.php:223
+Stack trace:
+#0 /home/highkicks/public_html/admin/index.php(264): ImageManipulator->save('/xx/Trianglify....')
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/image_upload_normalize.php on line 223
+[16-Oct-2018 11:13:53 America/New_York] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'No image set' in /home/highkicks/public_html/admin/image_upload_normalize.php:105
+Stack trace:
+#0 /home/highkicks/public_html/admin/index.php(263): ImageManipulator->resample(1300, 200, true)
+#1 {main}
+  thrown in /home/highkicks/public_html/admin/image_upload_normalize.php on line 105
+[16-Oct-2018 11:14:18 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Image type  not supported' in /home/highkicks/public_html/admin/image_upload_normalize.php:66
+Stack trace:
+#0 /home/highkicks/public_html/admin/image_upload_normalize.php(29): ImageManipulator->setImageFile('../data/photo-a...')
+#1 /home/highkicks/public_html/admin/index.php(262): ImageManipulator->__construct('../data/photo-a...')
+#2 {main}
+  thrown in /home/highkicks/public_html/admin/image_upload_normalize.php on line 66
+[16-Oct-2018 11:15:39 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Image type  not supported' in /home/highkicks/public_html/admin/image_upload_normalize.php:66
+Stack trace:
+#0 /home/highkicks/public_html/admin/image_upload_normalize.php(29): ImageManipulator->setImageFile('../data/photo-a...')
+#1 /home/highkicks/public_html/admin/index.php(262): ImageManipulator->__construct('../data/photo-a...')
+#2 {main}
+  thrown in /home/highkicks/public_html/admin/image_upload_normalize.php on line 66
+[16-Oct-2018 11:16:28 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Image type  not supported' in /home/highkicks/public_html/admin/image_upload_normalize.php:66
+Stack trace:
+#0 /home/highkicks/public_html/admin/image_upload_normalize.php(29): ImageManipulat[16-Oct-2018 11:47:14 America/New_York] PHP Fatal error:  Class 'Upload' not found in /home/highkicks/public_html/admin/index.php on line 262
+[16-Oct-2018 11:48:16 America/New_York] PHP Fatal error:  Class 'upload' not found in /home/highkicks/public_html/admin/index.php on line 262
+[16-Oct-2018 12:25:23 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/highkicks/public_html/admin/index.php on line 270
+[16-Oct-2018 12:25:32 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/highkicks/public_html/admin/index.php on line 270
+[16-Oct-2018 12:25:54 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/highkicks/public_html/admin/index.php on line 270
+[16-Oct-2018 12:26:45 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/highkicks/public_html/admin/index.php on line 289
+[16-Oct-2018 12:27:06 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/highkicks/public_html/admin/index.php on line 289
+[16-Oct-2018 15:18:30 America/New_York] PHP Fatal error:  Call to a member function prepare() on null in /home/highkicks/public_html/admin/delete.php on line 4
+[16-Oct-2018 15:20:20 America/New_York] PHP Fatal error:  Call to a member function prepare() on null in /home/highkicks/public_html/admin/delete.php on line 3

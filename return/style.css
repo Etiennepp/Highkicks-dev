@@ -1,0 +1,93 @@
+/*--================================================================================================
+
+
+		 /$$   /$$ /$$           /$$             /$$   /$$ /$$           /$$                
+		| $$  | $$|__/          | $$            | $$  /$$/|__/          | $$                
+		| $$  | $$ /$$  /$$$$$$ | $$$$$$$       | $$ /$$/  /$$  /$$$$$$$| $$   /$$  /$$$$$$$
+		| $$$$$$$$| $$ /$$__  $$| $$__  $$      | $$$$$/  | $$ /$$_____/| $$  /$$/ /$$_____/
+		| $$__  $$| $$| $$  \ $$| $$  \ $$      | $$  $$  | $$| $$      | $$$$$$/ |  $$$$$$ 
+		| $$  | $$| $$| $$  | $$| $$  | $$      | $$\  $$ | $$| $$      | $$_  $$  \____  $$
+		| $$  | $$| $$|  $$$$$$$| $$  | $$      | $$ \  $$| $$|  $$$$$$$| $$ \  $$ /$$$$$$$/
+		|__/  |__/|__/ \____  $$|__/  |__/      |__/  \__/|__/ \_______/|__/  \__/|_______/ 
+		               /$$  \ $$                                                            
+		              |  $$$$$$/                                                            
+		               \______/                                                             
+====================================================================================================
+
+
+
+
+								   _____                     _ 
+								  / ____|                   | |
+								 | |     __ _ _ __   ___ ___| |
+								 | |    / _` | '_ \ / __/ _ \ |
+								 | |___| (_| | | | | (_|  __/ |
+								  \_____\__,_|_| |_|\___\___|_|
+                               
+
+
+
+================================ W E L C O M E   D E V' ========================================--*/
+@font-face { 
+
+	font-family: 'Bold';
+	src: url('./data/police/theboldfont.ttf');
+}
+
+@font-face { 
+
+	font-family: 'Futura';
+	src: url('./data/police/Futura Std Heavy Oblique.otf');
+}
+
+
+@font-face { 
+
+	font-family: 'Article name';
+	src: url('./data/police/Quicksand_Bold_Oblique.otf');
+}
+
+@font-face { 
+
+	font-family: 'Price';
+	src: url('./data/police/Quicksand_Bold.otf');
+}
+
+@font-face { 
+
+	font-family: 'Quick_light';
+	src: url('./data/police/Quicksand_Light.otf');
+}
+
+h3
+{
+	font-family: "Quick_light",Arial;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+#to
+{
+	font-family: "Price",Arial;
+	color: white;
+	transition: 0.4s;
+}
+#to:hover
+{
+	color: #FF5328;
+}
+
+#thk-retrn
+{
+	text-align: center;
+	font-family: "Roboto-L";
+	color: white;
+	padding-top: 20px;
+}
+
+#body-wrap a
+{
+	text-decoration: none;
+	color: #ff5328;	
+}

@@ -1,0 +1,47 @@
+#pomelo-toast-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    min-height: 1px;
+    bottom: 20%;
+    div {
+        animation: flow 1s ease 1;
+        text-align: center;
+        padding: 5px 15px;
+        margin: 5px 0;
+        max-width: 60%;
+        border-radius: 5px;
+        font-size: 18px;
+        box-shadow: 0px 0px 10px #C9C9C9;
+        opacity: 0.9;
+    }
+}
+
+.pomelo-toast-down {
+    animation: down 1s ease 1 !important;
+}
+
+@keyframes flow {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 0.9;
+    }
+}
+
+@keyframes down {
+    from {
+        transform: translateY(0);
+        opacity: 0.9;
+    }
+    to {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,83 @@
+#title-order
+
+{
+
+
+
+	padding: 15px;
+
+	font-family: "Price",Arial;
+
+	font-size: 30px;
+
+	color: white;
+
+	text-align: center;
+
+	margin-bottom: 8px;
+
+	padding-bottom: 0px;
+
+}
+
+
+
+#usr-tips
+
+{
+
+	text-align: center;
+
+	color: white;
+
+	font-family: "Quick_light";
+
+	margin: auto;
+
+	display: block;
+
+}
+
+
+
+#usr-notif-empty
+
+{
+
+	text-decoration: none;
+
+	text-align: center;
+
+	color: white;
+
+	font-family: "Roboto-M";
+
+	letter-spacing: 2px;
+
+	padding-bottom: 50px;
+
+	position: relative;
+
+	top: 25px;
+
+
+
+}
+
+
+
+#redirect-shop
+
+{
+
+	text-decoration: none;
+
+	color: #FF5328;
+
+}
+
+#order-recap-table
+{
+	color: white;
+	margin: auto;
+}

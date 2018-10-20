@@ -1,0 +1,249 @@
+/*--================================================================================================
+
+
+		 /$$   /$$ /$$           /$$             /$$   /$$ /$$           /$$                
+		| $$  | $$|__/          | $$            | $$  /$$/|__/          | $$                
+		| $$  | $$ /$$  /$$$$$$ | $$$$$$$       | $$ /$$/  /$$  /$$$$$$$| $$   /$$  /$$$$$$$
+		| $$$$$$$$| $$ /$$__  $$| $$__  $$      | $$$$$/  | $$ /$$_____/| $$  /$$/ /$$_____/
+		| $$__  $$| $$| $$  \ $$| $$  \ $$      | $$  $$  | $$| $$      | $$$$$$/ |  $$$$$$ 
+		| $$  | $$| $$| $$  | $$| $$  | $$      | $$\  $$ | $$| $$      | $$_  $$  \____  $$
+		| $$  | $$| $$|  $$$$$$$| $$  | $$      | $$ \  $$| $$|  $$$$$$$| $$ \  $$ /$$$$$$$/
+		|__/  |__/|__/ \____  $$|__/  |__/      |__/  \__/|__/ \_______/|__/  \__/|_______/ 
+		               /$$  \ $$                                                            
+		              |  $$$$$$/                                                            
+		               \______/                                                             
+====================================================================================================
+
+
+
+							                _   _      _      
+							     /\        | | (_)    | |     
+							    /  \   _ __| |_ _  ___| | ___ 
+							   / /\ \ | '__| __| |/ __| |/ _ \
+							  / ____ \| |  | |_| | (__| |  __/
+							 /_/    \_\_|   \__|_|\___|_|\___|
+
+
+
+
+================================ W E L C O M E   D E V' ========================================--*/
+@font-face { 
+
+	font-family: 'Bold';
+	src: url('https://highkicks.fr/data/police/theboldfont.ttf');
+}
+
+@font-face { 
+
+	font-family: 'Futura';
+	src: url('https://highkicks.fr/data/police/Futura Std Heavy Oblique.otf');
+}
+
+
+@font-face { 
+
+	font-family: 'Article name';
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold_Oblique.otf');
+}
+
+@font-face { 
+
+	font-family: 'Price';
+	src: url('https://highkicks.fr/data/police/Quicksand_Bold.otf');
+}
+
+@font-face { 
+
+	font-family: 'Quick_light';
+	src: url('https://highkicks.fr/data/police/Quicksand_Light.otf');
+}
+
+/*======================================================================================*/
+#latest-arival
+{
+
+
+}
+
+
+#latest-arival-title
+{
+	text-align: center;
+	font-size: 50px;
+	
+	color: white;
+	font-family: 'Article name',Arial;
+
+    width: 100%;
+
+    text-transform: uppercase;
+
+    display: block;
+
+}
+
+
+
+/*======================================================================================*/
+#images-article
+{
+	
+	margin-left: 2.5%;
+	margin-right: 1.5%;
+	width: 50%;
+	height: 610px;
+
+}
+#image-principal
+{
+
+	width: 100%;
+	border-radius: 5px;
+
+	
+}
+
+#image-1
+{
+	margin : 1%;
+	margin-top: 2%;
+	margin-left: 0px;
+	width: 31%;
+
+	cursor: pointer;
+	opacity: 1;
+
+}
+
+
+
+#image-2
+{
+	margin : 1%;
+	margin-top: 2%;
+
+	width: 31%;
+	
+	cursor: pointer;
+	opacity: 0.25;
+}
+
+#image-3
+{
+	margin : 1%;
+	margin-top: 2%;
+	margin-right: 0px;
+	width: 31%;
+
+	cursor: pointer;
+	opacity: 0.25;
+}
+#image-principal:hover {
+		
+
+}
+
+/*======================================================================================*/
+#indication{
+	width: 35%;
+
+}
+.indic-description
+{
+	
+
+	color: white;
+	font-family: 'Quick_light',Arial;
+
+	font-weight: 99999999;
+}
+
+#latest-arival{
+	margin-top: 20%;
+}
+#indic-wrap
+{
+	display: flex;
+	width: 40
+}
+
+#button
+{
+	background-color: #FF5328;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: "Price",Arial;
+	text-align: center;
+	margin: 2%;
+	cursor: pointer;
+	width: 50%;
+	float: right;
+	transition: 0.3s;
+}
+
+#button:hover
+{
+	background-color: #F30;
+	transition: 0.3s;
+}
+
+#select-size
+{
+	padding: 10px;
+	border: none;
+
+	font-family: "Bold",Arial;
+	font-size: 16px;
+
+	background-color:  #848484;
+	color: white;
+   -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none; 
+   background-image: url('https://highkicks.fr/data/image/dropdown-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right center; 
+    padding-right: 40px;
+    width: 200px;
+
+    margin-right: 40px;
+
+}
+
+#wrap-product-info
+{
+	display: flex;
+
+	justify-content: space-between;
+}
+
+#err_unvalid_size
+{
+	font-family: 'Quick_light';
+	color: white;
+}
+
+#select-size-wrap
+{
+	width: inherit;
+}
+
+#price
+{
+	color: #FF5328;
+	font-family: "Price";
+
+	font-size: 35px;
+
+	margin-top: 0px;
+}
+
+#description
+{
+	font-size: 18px;
+	text-align: justify;
+
+	margin-left: 5%;
+}

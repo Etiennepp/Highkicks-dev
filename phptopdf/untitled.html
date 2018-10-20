@@ -1,0 +1,175 @@
+<?php
+session_start();
+require('rotation.php');
+
+$panier_recap = array();
+
+$total=0;
+
+try {
+	$bdd = new PDO("mysql:host=highkicks.fr; dbname=highkicks_bdd;", "highkick_admin", "[Wit0wska//4rett4H0urQuet]");    
+	$bdd->setAttribute(pdo::ATTR_ERRMODE, pdo::ERRMODE_EXCEPTION);
+    $bdd->setAttribute(pdo::ATTR_EMULATE_PREPARES, false);
+    $bdd->exec('SET NAMES utf8');
+}
+catch(Exception $e) {
+    echo 'Exception -> ';
+    var_dump($e->getMessage());
+}
+
+foreach ($_SESSION['panier']['id'] as $panier) {
+	$array_tmp = array();
+	$select_panier_query = $bdd -> prepare("SELECT * FROM Article WHERE id='".$panier."'");
+	$select_panier_query -> execute();
+	$select_panier = $select_panier_query -> fetch();
+
+	$id_tmp = array_search($panier, array_column($panier, 'id'));
+	$qte= array_column($_SESSION['panier'], 'qteProduit')[$id_tmp];
+
+	$total+= floatval($select_panier['prix'])*intval($qte);
+
+
+	array_push($array_tmp, $select_panier['nom'],$select_panier['prix'],$qte,"/",intval($qte)*floatval($select_panier['prix']));
+	array_push($panier_recap, $array_tmp);
+}
+
+print_r($panier_recap);
+
+
+class PDF_Rotate extends FPDF
+{
+var $angle=0;
+
+function Rotate($angle,$x=-1,$y=-1)
+{
+	if($x==-1)
+		$x=$this->x;
+	if($y==-1)
+		$y=$this->y;
+	if($this->angle!=0)
+		$this->_out('Q');
+	$this->angle=$angle;
+	if($angle!=0)
+	{
+		$angle*=M_PI/180;
+		$c=cos($angle);
+		$s=sin($angle);
+		$cx=$x*$this->k;
+		$cy=($this->h-$y)*$this->k;
+		$this->_out(sprintf('q %.5F %.5F %.5F %.5F %.2F %.2F cm 1 0 0 1 %.2F %.2F cm',$c,$s,-$s,$c,$cx,$cy,-$cx,-$cy));
+	}
+}
+
+function _endpage()
+{
+	if($this->angle!=0)
+	{
+		$this->angle=0;
+		$this->_out('Q');
+	}
+	parent::_endpage();
+}
+}
+
+class PDF extends PDF_Rotate
+{
+function RotatedText($x,$y,$txt,$angle)
+{
+	//Text rotated around its origin
+	$this->Rotate($angle,$x,$y);
+	$this->Text($x,$y,$txt);
+	$this->Rotate(0);
+
+}
+// En-tête
+function Header()
+{
+	// Logo
+	$this->Image('logo.png',8,5,25);
+	// Police Futura 50
+	$this->SetFont('Futura','',50);
+	// Décalage à droite
+	$this->Cell(80);
+	// Titre
+	$this->Cell(30,16,'HIGH KICKS',0,0,'C');
+	// Police Futura 50
+	$this->SetFont('Quicksand','',12);
+	// Décalage à droite
+	$this->Cell(78);
+	//N°
+	$this->Cell(0,-11,'	',0,0,'C');
+	// Saut de ligne
+	$this->Ln(38);
+}
+
+// Pied de page
+function Footer()
+{
+	$this->SetY(-30);
+
+	$this->SetFont('Quicksand','',15);
+
+	$this->Cell(0,5,'___________________________________________________',0,0,'C');
+
+	$this->Cell(-185,20,'Site internet : highkicks.fr                  contact : contact@highkicks.fr
+',0,0,'C');
+
+	
+
+	
+
+	// Positionnement à 1,5 cm du basfgd j
+	$this->SetY(-15);
+	// Police Arial italique 8
+	$this->SetFont('Quicksand','',8);
+	// Numéro de page
+	$this->Cell(0,10,'Page '.$this->PageNo().'/{nb}',0,0,'C');
+}
+
+
+// Tableau simple
+function BasicTable($header, $data)
+{
+	$w = array(80, 35, 15, 25, 37);
+    // En-tête
+    for($i=0;$i<count($header);$i++)
+        $this->Cell($w[$i],8,$header[$i],1,0,'C');
+    $this->Ln();
+    // Données
+    foreach($data as $row)
+    {
+        for($i=0;$i<count($row);$i++)
+            $this->Cell($w[$i],8,$row[$i],1,0,'C');
+        $this->Ln();
+    }
+}
+}
+
+// Instanciation de la classe dérivée
+function PDF_crater(){
+	$pdf = new PDF();
+	$header = array('Désignation','Prix (TTC)','Qté','Reduc.','Sous-Total');
+	$data = $panier_recap;
+	$prix = $total;
+	$pdf->AddFont('Futura','','Futura Std Heavy Oblique.php');
+	$pdf->AddFont('Quicksand','','Quicksand_Bold.php');
+	$pdf->AliasNbPages();
+	$pdf->AddPage();
+	$pdf->SetFont('Quicksand','',18);
+	$pdf->Cell(0,10,'Toute l’équipe de HIGH KICKS vous remercie pour vos',0,1,'C');
+	$pdf->Cell(0,10,'achats et vous souhaite une bonne réception. En cas de',0,1,'C');
+	$pdf->Cell(0,10,'problème, n’hésitez pas à nous contacter pour nous le',0,1,'C');
+	$pdf->Cell(0,10,'signaler.',0,1,'C');
+	$pdf->SetFont('Quicksand','',16);
+	$pdf->Ln(4);
+	$pdf->BasicTable($header,$data);
+	$pdf->SetFont('Quicksand','',18);
+	$pdf->Cell(335,15,'Total TTC : '.$prix.'',0,1,'C');
+	$pdf->SetFont('Quicksand','',9);
+	$pdf->RotatedText(208,240,'En cas de réclamation, merci de présenter ce dernier document en pièce jointe de votre courrier.',90);
+	$pdf->Output();
+}
+
+PDF_crater();	
+?>
+

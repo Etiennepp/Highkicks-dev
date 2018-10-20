@@ -1,0 +1,316 @@
+[24-Sep-2018 10:55:34 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logo.png' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /home/highkicks/public_html/phptopdf/index.php(71): FPDF->Image('logo.png', 8, 5, 25)
+#3 /home/highkicks/public_html/phptopdf/fpdf.php(334): PDF->Header()
+#4 /home/highkicks/public_html/phptopdf/index.php(145): FPDF->AddPage()
+#5 /home/highkicks/public_html/phptopdf/index.php(162): PDF_crater()
+#6 /home/highkicks/public_html/return/index.php(40): include('/home/highkicks...')
+#7 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[24-Sep-2018 10:55:46 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logo.png' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /home/highkicks/public_html/phptopdf/index.php(71): FPDF->Image('logo.png', 8, 5, 25)
+#3 /home/highkicks/public_html/phptopdf/fpdf.php(334): PDF->Header()
+#4 /home/highkicks/public_html/phptopdf/index.php(145): FPDF->AddPage()
+#5 /home/highkicks/public_html/phptopdf/index.php(162): PDF_crater()
+#6 /home/highkicks/public_html/return/index.php(40): include('/home/highkicks...')
+#7 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[24-Sep-2018 10:57:41 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logo.png' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /home/highkicks/public_html/phptopdf/index.php(71): FPDF->Image('logo.png', 8, 5, 25)
+#3 /home/highkicks/public_html/phptopdf/fpdf.php(334): PDF->Header()
+#4 /home/highkicks/public_html/phptopdf/index.php(145): FPDF->AddPage()
+#5 /home/highkicks/public_html/phptopdf/index.php(162): PDF_crater()
+#6 /home/highkicks/public_html/return/index.php(40): include('/home/highkicks...')
+#7 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[24-Sep-2018 10:58:10 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logo.png' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /home/highkicks/public_html/phptopdf/index.php(71): FPDF->Image('logo.png', 8, 5, 25)
+#3 /home/highkicks/public_html/phptopdf/fpdf.php(334): PDF->Header()
+#4 /home/highkicks/public_html/phptopdf/index.php(145): FPDF->AddPage()
+#5 /home/highkicks/public_html/phptopdf/index.php(161): PDF_crater()
+#6 /home/highkicks/public_html/return/index.php(40): include('/home/highkicks...')
+#7 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[24-Sep-2018 10:59:14 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logo.png' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /home/highkicks/public_html/phptopdf/index.php(71): FPDF->Image('logo.png', 8, 5, 25)
+#3 /home/highkicks/public_html/phptopdf/fpdf.php(334): PDF->Header()
+#4 /home/highkicks/public_html/phptopdf/index.php(145): FPDF->AddPage()
+#5 /home/highkicks/public_html/phptopdf/index.php(162): PDF_crater()
+#6 /home/highkicks/public_html/return/index.php(40): include('/home/highkicks...')
+#7 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[24-Sep-2018 13:17:29 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Can't open image file: logo.png' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /home/highkicks/public_html/phptopdf/index.php(71): FPDF->Image('logo.png', 8, 5, 25)
+#3 /home/highkicks/public_html/phptopdf/fpdf.php(334): PDF->Header()
+#4 /home/highkicks/public_html/phptopdf/index.php(145): FPDF->AddPage()
+#5 /home/highkicks/public_html/phptopdf/index.php(162): PDF_crater()
+#6 /home/highkicks/public_html/return/index.php(40): include('/home/highkicks...')
+#7 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[24-Sep-2018 13:32:37 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:35:27 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:35:28 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:36:04 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:36:05 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:39:26 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:40:15 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:40:16 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:40:18 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[24-Sep-2018 13:44:20 America/New_York] PHP Fatal error:  require(): Failed opening required 'https://highkicks.fr/phptopdf/rotation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/phptopdf/index.php on line 4
+[26-Sep-2018 09:03:25 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(168): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(172): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[26-Sep-2018 13:31:04 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(189): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(193): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[26-Sep-2018 13:31:22 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(189): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(193): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[26-Sep-2018 13:31:44 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(189): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(193): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[26-Sep-2018 13:32:13 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(189): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(193): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[26-Sep-2018 13:33:56 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(189): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(193): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[26-Sep-2018 13:36:49 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(189): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(193): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[27-Sep-2018 05:34:45 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(189): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(193): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[27-Sep-2018 05:35:40 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/highkicks/public_html/menu.php:178)' in /home/highkicks/public_html/phptopdf/fpdf.php:271
+Stack trace:
+#0 /home/highkicks/public_html/phptopdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/highkicks/public_html/phptopdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/highkicks/public_html/phptopdf/index.php(189): FPDF->Output()
+#3 /home/highkicks/public_html/phptopdf/index.php(193): PDF_crater()
+#4 /home/highkicks/public_html/return/index.php(40): require('/home/highkicks...')
+#5 {main}
+  thrown in /home/highkicks/public_html/phptopdf/fpdf.php on line 271
+[27-Sep-2018 05:44:42 America/New_York] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/highkicks/public_html/return/index.php on line 58
+[27-Sep-2018 05:48:43 America/New_York] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/highkicks/public_html/return/index.php on line 58
+[27-Sep-2018 05:53:49 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:50 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:51 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:51 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:51 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:52 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:52 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:52 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:52 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:52 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:53:52 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:54:25 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:54:26 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:54:27 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:54:28 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:54:28 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:54:29 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:54:30 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:55:33 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:55:33 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:55:34 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:55:35 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:55:50 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:55:50 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:55:51 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:55:52 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:56:45 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 05:56:46 America/New_York] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/highkicks/public_html/return/index.php on line 65
+[27-Sep-2018 06:00:24 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/return/index.php on line 65
+[01-Oct-2018 08:33:41 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/return/index.php on line 112
+[01-Oct-2018 08:33:43 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/return/index.php on line 112
+[01-Oct-2018 08:33:44 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/return/index.php on line 112
+[01-Oct-2018 08:34:44 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/highkicks/public_html/return/index.php on line 112
+[01-Oct-2018 14:35:17 Europe/Paris] PHP Fatal error:  Call to a member function execute() on null in /home/highkicks/public_html/return/index.php on line 108
+[01-Oct-2018 14:37:03 Europe/Paris] PHP Fatal error:  Call to a member function execute() on null in /home/highkicks/public_html/return/index.php on line 108
+[02-Oct-2018 11:05:01 Europe/Paris] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/highkicks/public_html/phptopdf/index.php on line 11
+[02-Oct-2018 11:38:27 Europe/Paris] PHP Parse error:  syntax error, unexpected '=' in /home/highkicks/public_html/return/sendmail.php on line 40
+[02-Oct-2018 11:58:35 Europe/Paris] PHP Parse error:  syntax error, unexpected '$email' (T_VARIABLE) in /home/highkicks/public_html/return/sendmail.php on line 10
+[02-Oct-2018 11:59:28 Europe/Paris] PHP Fatal error:  Class 'PHPMailer' not found in /home/highkicks/public_html/return/sendmail.php on line 6
+[02-Oct-2018 11:59:33 Europe/Paris] PHP Fatal error:  Class 'PHPMailer' not found in /home/highkicks/public_html/return/sendmail.php on line 6
+[02-Oct-2018 17:57:15 Europe/Paris] PHP Fatal error:  Call to undefined method PDF::CellFit() in /home/highkicks/public_html/phptopdf/index.php on line 150
+[02-Oct-2018 17:58:53 Europe/Paris] PHP Fatal error:  Call to undefined method PDF::CellFit() in /home/highkicks/public_html/phptopdf/index.php on line 243
+[04-Oct-2018 15:10:30 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in /home/highkicks/public_html/phptopdf/rotation.php on line 869
+[04-Oct-2018 15:17:30 Europe/Paris] PHP Fatal error:  Cannot access protected property PDF::$w in /home/highkicks/public_html/phptopdf/index.php on line 205
+[04-Oct-2018 15:25:55 Europe/Paris] PHP Fatal error:  Call to undefined function aa() in /home/highkicks/public_html/phptopdf/index.php on line 167
+[10-Oct-2018 18:03:03 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in /home/highkicks/public_html/phptopdf/index.php on line 191
+[10-Oct-2018 18:03:06 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in /home/highkicks/public_html/phptopdf/index.php on line 191
+[10-Oct-2018 18:05:14 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in /home/highkicks/public_html/phptopdf/index.php on line 202
+[10-Oct-2018 18:05:18 Europe/Paris] PHP Parse error:  syntax error, unexpected ',' in /home/highkicks/public_html/phptopdf/index.php on line 202
+[10-Oct-2018 16:19:34 America/New_York] PHP Fatal error:  require(): Failed opening required 'bootstrap.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/return/index.php on line 43
+[10-Oct-2018 16:20:36 America/New_York] PHP Fatal error:  require(): Failed opening required 'bootstrap.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/return/index.php on line 45
+[10-Oct-2018 16:21:03 America/New_York] PHP Fatal error:  require(): Failed opening required 'bootstrap.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/highkicks/public_html/return/index.php on line 45
+[10-Oct-2018 16:22:05 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalInvalidCredentialException' with message 'Credential not found for  default user. Please make sure your configuration/APIContext has credential information' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php:153
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Rest/ApiContext.php(56): PayPal\Core\PayPalCredentialManager->getCredentialObject()
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/RestHandler.php(50): PayPal\Rest\ApiContext->getCredential()
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(75): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', Array)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php on line 153
+[10-Oct-2018 16:24:26 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalInvalidCredentialException' with message 'Credential not found for  default user. Please make sure your configuration/APIContext has credential information' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php:153
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Rest/ApiContext.php(56): PayPal\Core\PayPalCredentialManager->getCredentialObject()
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/RestHandler.php(50): PayPal\Rest\ApiContext->getCredential()
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(75): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', Array)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php on line 153
+[10-Oct-2018 16:29:31 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalInvalidCredentialException' with message 'Credential not found for  default user. Please make sure your configuration/APIContext has credential information' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php:153
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Rest/ApiContext.php(56): PayPal\Core\PayPalCredentialManager->getCredentialObject()
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/RestHandler.php(50): PayPal\Rest\ApiContext->getCredential()
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(75): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', Array)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php on line 153
+[10-Oct-2018 16:47:00 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'paymentId cannot be null' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(592): PayPal\Validation\ArgumentValidator::validate(NULL, 'paymentId')
+#1 /home/highkicks/public_html/paypal2/pay.php(42): PayPal\Api\Payment::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 /home/highkicks/public_html/return/index.php(45): require('/home/highkicks...')
+#3 {main}
+  thrown in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[11-Oct-2018 08:07:18 America/New_York] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/highkicks/public_html/return/index.php on line 56
+[11-Oct-2018 08:09:02 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 401 when accessing https://api.sandbox.paypal.com/v1/oauth2/token.' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:202
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(246): PayPal\Core\PayPalHttpConnection->execute('grant_type=clie...')
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(271): PayPal\Auth\OAuthTokenCredential->getToken(Array, NULL, NULL, 'grant_type=clie...')
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(210): PayPal\Auth\OAuthTokenCredential->generateAccessToken(Array, NULL)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(160): PayPal\Auth\OAuthTokenCredential->updateAcce in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 202
+[11-Oct-2018 08:11:41 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 401 when accessing https://api.sandbox.paypal.com/v1/oauth2/token.' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:202
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(246): PayPal\Core\PayPalHttpConnection->execute('grant_type=clie...')
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(271): PayPal\Auth\OAuthTokenCredential->getToken(Array, NULL, NULL, 'grant_type=clie...')
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(210): PayPal\Auth\OAuthTokenCredential->generateAccessToken(Array, NULL)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(160): PayPal\Auth\OAuthTokenCredential->updateAcce in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 202
+[11-Oct-2018 08:13:10 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 401 when accessing https://api.sandbox.paypal.com/v1/oauth2/token.' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:202
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(246): PayPal\Core\PayPalHttpConnection->execute('grant_type=clie...')
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(271): PayPal\Auth\OAuthTokenCredential->getToken(Array, NULL, NULL, 'grant_type=clie...')
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(210): PayPal\Auth\OAuthTokenCredential->generateAccessToken(Array, NULL)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(160): PayPal\Auth\OAuthTokenCredential->updateAcce in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 202
+[11-Oct-2018 08:13:41 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 401 when accessing https://api.sandbox.paypal.com/v1/oauth2/token.' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:202
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(246): PayPal\Core\PayPalHttpConnection->execute('grant_type=clie...')
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(271): PayPal\Auth\OAuthTokenCredential->getToken(Array, NULL, NULL, 'grant_type=clie...')
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(210): PayPal\Auth\OAuthTokenCredential->generateAccessToken(Array, NULL)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(160): PayPal\Auth\OAuthTokenCredential->updateAcce in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 202
+[11-Oct-2018 08:15:14 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 401 when accessing https://[11-Oct-2018 08:30:47 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 401 when accessing https://api.sandbox.paypal.com/v1/oauth2/token.' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:202
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(246): PayPal\Core\PayPalHttpConnection->execute('grant_type=clie...')
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(271): PayPal\Auth\OAuthTokenCredential->getToken(Array, 'AUHBOEDqYg4A6ds...', 'ELjyBcHEARWQl1h...', 'grant_type=clie...')
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(210): PayPal\Auth\OAuthTokenCredential->generateAccessToken(Array, NULL)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(160): PayPal\Auth\ in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 202
+[11-Oct-2018 08:34:31 America/New_York] PHP Fatal error:  Uncaught exception 'PayPal\Exception\PayPalConnectionException' with message 'Got Http response code 401 when accessing https://api.sandbox.paypal.com/v1/oauth2/token.' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:202
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(246): PayPal\Core\PayPalHttpConnection->execute('grant_type=clie...')
+#1 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(271): PayPal\Auth\OAuthTokenCredential->getToken(Array, 'AUHBOEDqYg4A6ds...', 'ELjyBcHEARWQl1h...', 'grant_type=clie...')
+#2 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(210): PayPal\Auth\OAuthTokenCredential->generateAccessToken(Array, NULL)
+#3 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php(160): PayPal\Auth\ in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 202
+[11-Oct-2018 09:03:22 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'paymentId cannot be null' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(592): PayPal\Validation\ArgumentValidator::validate(NULL, 'paymentId')
+#1 /home/highkicks/public_html/return/index.php(18): PayPal\Api\Payment::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 {main}
+  thrown in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[12-Oct-2018 06:05:17 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'paymentId cannot be null' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(592): PayPal\Validation\ArgumentValidator::validate(NULL, 'paymentId')
+#1 /home/highkicks/public_html/return/index.php(18): PayPal\Api\Payment::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 {main}
+  thrown in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[13-Oct-2018 12:04:48 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/highkicks/public_html/return/index.php on line 134
+[13-Oct-2018 12:05:43 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/highkicks/public_html/return/index.php on line 26
+[13-Oct-2018 12:06:22 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/highkicks/public_html/return/index.php on line 131
+[15-Oct-2018 16:06:50 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/highkicks/public_html/return/index.php on line 134
+[15-Oct-2018 22:07:40 Europe/Paris] PHP Fatal error:  Class 'PHPMailer\PHPMailer\Exception' not found in /home/highkicks/public_html/phpmailer/src/PHPMailer.php on line 2794
+[15-Oct-2018 16:18:15 America/New_York] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/highkicks/public_html/return/index.php on line 26
+[15-Oct-2018 16:18:21 America/New_York] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/highkicks/public_html/return/index.php on line 26
+[15-Oct-2018 16:30:38 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'paymentId cannot be null' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(592): PayPal\Validation\ArgumentValidator::validate(NULL, 'paymentId')
+#1 /home/highkicks/public_html/return/index.php(21): PayPal\Api\Payment::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 {main}
+  thrown in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[15-Oct-2018 16:31:18 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'paymentId cannot be null' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(592): PayPal\Validation\ArgumentValidator::validate(NULL, 'paymentId')
+#1 /home/highkicks/public_html/return/index.php(21): PayPal\Api\Payment::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 {main}
+  thrown in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[17-Oct-2018 07:46:58 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'paymentId cannot be null' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(592): PayPal\Validation\ArgumentValidator::validate(NULL, 'paymentId')
+#1 /home/highkicks/public_html/return/index.php(21): PayPal\Api\Payment::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 {main}
+  thrown in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
+[17-Oct-2018 09:45:37 America/New_York] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'paymentId cannot be null' in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php:25
+Stack trace:
+#0 /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(592): PayPal\Validation\ArgumentValidator::validate(NULL, 'paymentId')
+#1 /home/highkicks/public_html/return/index.php(21): PayPal\Api\Payment::get(NULL, Object(PayPal\Rest\ApiContext))
+#2 {main}
+  thrown in /home/highkicks/public_html/paypal2/vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php on line 25
