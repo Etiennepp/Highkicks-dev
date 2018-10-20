@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html>x
+<html>
 
 <head>
 
